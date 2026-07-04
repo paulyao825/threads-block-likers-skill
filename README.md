@@ -2,6 +2,18 @@
 
 一個 Claude Cowork 技能，透過瀏覽器在你自己已登入的 Threads 帳號上，封鎖某則貼文或留言底下所有按讚的人。
 
+## 使用前準備（Cowork 環境設定）
+
+這個技能是靠「**Claude in Chrome**」瀏覽器擴充功能來操作 Threads 網頁（不是單純的桌面畫面控制 / Computer Use）。第一次使用前，請先完成：
+
+1. 用 Google Chrome 瀏覽器（暫不支援其他 Chromium 分支瀏覽器或手機版）。
+2. 到 Chrome 線上應用程式商店安裝「Claude」擴充功能，並登入你的 Claude 帳號。
+3. 在 Claude 桌面版／Cowork 裡打開「設定 → 連接器（Connectors）」，找到 **Claude in Chrome**，把它打開。
+4. 在對話視窗上方的「Connectors」下拉選單中，針對這次對話手動啟用 Claude in Chrome（它預設關閉，每次新對話都要開一次）。
+5. 在該瀏覽器中先自行登入要操作的 Threads 帳號。
+
+沒完成以上設定的話，Claude 沒辦法打開瀏覽器分頁、讀取網頁內容或點擊按鈕，這個技能就無法執行。
+
 ## 下載
 
 - **最簡單：** 點擊上方的 `threads-block-likers.skill`，再用該檔案頁面上的「Download raw file」（下載圖示）按鈕下載。
